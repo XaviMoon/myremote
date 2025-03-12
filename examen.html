@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Universidad Cristobal Colón</title>
+</head>
+<body>
+	<div class="imagen-div">
+<img src="logo.png" alt="Logotipo de la universidad Cristobal Colón">
+	</div>
+<h1>EVALUACION PARCIAL</h1>
+<h2>Luis Javier Vazquez Luna</h2>
+
+<h4>Peliculas:</h4>
+<ol reversed>
+<li>Aun estoy aqui.</li>
+<li>La chica de la aguja.</li>
+<li>Emilia Perez.</li>
+<li>La semilla de la higuera sagrada.</li>
+<li>Flow.</li>
+</ol>
+<br>  
+
+<form>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><label for="correo">Correo Electrónico:</label></br>
+            <input type="email" id="correo" name="correo" required>
+            <br><label for="edad">Edad:</label></br>
+            <input type="number" id="edad" name="edad" required>
+            <br><label for="fecha_nacimiento">Fecha de Nacimiento:</label></br>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            <br><label>Estado Civil:</label></br>
+            <label><input type="radio" name="estado_civil" value="soltero" required> Soltero/a</label>
+            <label><input type="radio" name="estado_civil" value="casado"> Casado/a</label>
+            <label><input type="radio" name="estado_civil" value="divorciado"> Divorciado</label>
+            <legend>Principales intereses</legend>
+            <label><input type="checkbox" name="intereses[]" value="videojuegos"> videojuegos</label>
+            <label><input type="checkbox" name="intereses[]" value="leer"> Leer</label>
+            <label><input type="checkbox" name="intereses[]" value="viajar"> Viajar</label>
+            <label><input type="checkbox" name="intereses[]" value="dormir"> Dormir</label>
+                        <br><select name="lugar_residencia" required></br>
+                <option value="">Selecciona el lugar de residencia</option>
+                <option value="vera">Veracruz</option>
+                <option value="cdmx">Ciudad de México</option>
+                <option value="gua">Guadalajara</option>
+                <option value="mon">Monterrey</option>
+                <option value="tol">Toluca</option>
+            </select>
+
+            <br><button type="botonenviar">Enviar</button></br>
+        <br><button type="botoncancelar">Cancelar</button></br>
+</form>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Rango de Edades</th>
+            <th>Mujeres</th>
+            <th>Hombres</th>
+            <th>Promedio General</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>5-10</td>
+            <td>Estatura: 0.9<br>Peso: 35</td>
+            <td>Estatura: 1.1<br>Peso: 38</td>
+            <td>Estatura: 1.0<br>Peso: 36.6</td>
+        </tr>
+        <tr>
+            <td>11-15</td>
+            <td>Estatura: 0.98<br>Peso: 40</td>
+            <td>Estatura: 1.6<br>Peso: 65</td>
+            <td>Estatura: 1.3<br>Peso: 52.5</td>
+        </tr>
+        <tr>
+            <td>16-20</td>
+            <td>Estatura: 1.50<br>Peso: 45</td>
+            <td>Estatura: 1.72<br>Peso: 70</td>
+            <td>Estatura: 1.61<br>Peso: 57.5</td>
+        </tr>
+        <tr>
+            <td>21-30</td>
+            <td>Estatura: 1.60<br>Peso: 50</td>
+            <td>Estatura: 1.7<br>Peso: 75</td>
+            <td>Estatura: 1.65<br>Peso: 62.5</td>
+        </tr>
+        <tr>
+            <td>31-35</td>
+            <td>Estatura: 1.67<br>Peso: 64</td>
+            <td>Estatura: 1.73<br>Peso: 78</td>
+            <td>Estatura: 1.7<br>Peso: 71</td>
+        </tr>
+        <tr>
+            <td>35-40</td>
+            <td>Estatura: 1.62<br>Peso: 60</td>
+            <td>Estatura: 1.71<br>Peso: 80</td>
+            <td>Estatura: 1.69<br>Peso: 70</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
